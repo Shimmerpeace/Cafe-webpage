@@ -1,0 +1,55 @@
+body {
+ background-image: url('/storage/emulated/0/Pictures/Screenshots/Screenshot_2024-10-27-15-43-42-223.jpeg');
+}
+
+.cafe-name, 
+.drink,
+.item > p{
+  text-align: center;
+}
+
+.cafe {
+  width: 95%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+ border-radius: 50px;
+}
+
+.item p{
+  display: inline-block;
+}
+
+.flavor {
+  text-align: left;
+  width: 70%;
+}
+
+.review {
+  margin: 0;
+  padding: 0.3em;
+  background-color: darkkhaki;
+}
+.review > h2,
+.customer {
+  margin: 0.2rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+.customer {
+background: right/contain content-box border-box no-repeat
+    url('/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20241001-WA0000.jpg') white;
+}
+.customer > p,
+.customer > footer {
+  margin: 0.2rem;
+  font-size: 1rem;
+}
+
+.fixed {
+ position: fixed;
+ right: 0;
+ border: 3px solid #73AD21;
+ background-color: whitesmoke;
+ width: 300px;
+}
